@@ -1,3 +1,8 @@
+# ReactiveForms: 
+- FormControl: Representa un solo campo de formulario.
+- FormGroup: Agrupa múltiples campos en una entidad.
+- FormBuilder: Facilita la creación de FormGroup y FormControl de manera más concisa.
+
 `1.In Angular 17+ You can use the new syntax:`
 ```
 @for (item of items; track item.id; let idx = $index) {
