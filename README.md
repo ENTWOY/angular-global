@@ -22,4 +22,26 @@
 <div *ngFor="let post of apiService.postsResult$ | async; let i = index">
   {{i}} - {{post.title}}
 <div>
+
+.mat-form-field {
+  font-size: 0.74rem;
+
+  input {
+    font-size: 1rem;
+  }
+
+  label.mat-form-field-label {
+    font-size: 1rem;
+    top: 1.45em;
+  }
+
+  &.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+  &.mat-form-field-can-float
+    .mat-input-server:focus
+    + .mat-form-field-label-wrapper
+    .mat-form-field-label {
+    transform: translateY(-1.25em) scale(0.75);
+    width: 133.33333%;
+  }
+}
 ```
