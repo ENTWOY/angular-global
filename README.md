@@ -6,6 +6,10 @@
 ```
 ng g c new-component --skip-tests --style none
 ```
+```
+git reset --hard HEAD^
+git push origin main --force
+```
 
 `2. Use LB.`
 ```
