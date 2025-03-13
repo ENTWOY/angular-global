@@ -3,6 +3,8 @@
 - FormGroup: Agrupa múltiples campos en una entidad.
 - FormBuilder: Facilita la creación de FormGroup y FormControl de manera más concisa.
 
+. Error generating album cover. Please try again later.
+
 ```
 ng g c new-component --skip-tests --style none
 ```
